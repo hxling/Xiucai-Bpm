@@ -1,0 +1,12 @@
+﻿<form id="loginForm"><div class="login_top" >
+
+    <table cellpadding=2 style="width:100%">
+        <tr><td style="padding-left:10px;">用 户 名：</td><td><input autocomplete="off" value="admin" type="text" class="txt03 easyui-validatebox" data-options="required:true,missingMessage:'请输入用户名'" name="username" style="font-weight:bold" id="txtUserName" /></td></tr>
+        <tr><td style="padding-left:10px;">密　　码：</td><td><input type="password" name="password" class="txt03 easyui-validatebox" data-options="required:true,missingMessage:'请输入密码'" id="txtPassword" style="font-weight:bold" /></td></tr>
+        <tr><td style="padding-left:10px;">保存密码：</td><td><input name="savedays" type="text" id="txt_save" /></td></tr>
+        <tr id="vCodebox"><td style="padding-left:10px;">验 证 码：</td><td><input autocomplete="off" type="text" class="txt03 easyui-validatebox" data-options="required:true,missingMessage:'请输入验证码'" style="font-weight:bold" maxlength="4" id="txt_validatecode" name="validateCode" /></td></tr>
+        <tr><td style="padding-left:10px;">&nbsp;</td><td><img alt="验证码" title="看不清点击切换验证码" id="imgValidateCode" src="validateCode.hxl?t=4"/></td></tr>
+    </table>
+                
+</div>
+</form>

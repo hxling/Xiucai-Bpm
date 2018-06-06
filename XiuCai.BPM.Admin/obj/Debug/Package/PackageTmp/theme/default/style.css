@@ -1,0 +1,34 @@
+
+.footer{ background: #E0ECFF;line-height: 28px;}
+#sysconfig h1
+{
+    font-size:18px;font-family:'Microsoft YaHei';padding:0px;padding-left:20px; color:#7C7C7C; margin-bottom:5px;
+}
+#sysconfig .c
+{
+    margin:5px;border-top:2px solid #1382CE; margin-bottom:15px; padding-top:10px;
+}
+#sysconfig ul
+{
+    list-style:none;
+}
+#sysconfig li
+{
+    line-height:30px;height:30px;display: table;
+}
+#sysconfig li div
+{
+    width:140px;float:left; text-align:right;padding-right:10px;
+}
+
+/********************* 表格样式 ***********************/
+.grid {	font: 12px arial, helvetica, sans-serif;border:1px solid #8DB2E3;}
+.grid td {	font: 100% arial, helvetica, sans-serif; height:24px;padding:5px;}
+.grid  { width: 100%; border-collapse: collapse}
+.grid th { background:#E7F3FE; height:27px; line-height:27px;border:1px solid #8DB2E3; padding-left:5px;}
+.grid td {	border:1px solid #8DB2E3;padding-left:5px;}
+
+.grid2{  font-size:12px; border:1px solid #8DB2E3; border-collapse: collapse}
+.grid2 td,.grid2 th{ border:1px solid #8DB2E3;padding:3px;   }
+.grid2 th{background:#F0F5FC url('/images/datagrid_title_bg.png') repeat-x; height:20px;}
+.grid2 tr{}

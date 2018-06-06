@@ -1,0 +1,27 @@
+E:\Project\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Common\Common\bin\Debug\Common.dll
+E:\Project\Common\Common\bin\Debug\Common.pdb
+E:\Project\Common\Common\bin\Debug\Newtonsoft.Json.Net20.Merged.dll
+E:\Project\Common\Common\obj\Debug\Common.dll
+E:\Project\Common\Common\obj\Debug\Common.pdb
+E:\Project\Common\Common .net4\Common\bin\Debug\Common.dll
+E:\Project\Common\Common .net4\Common\bin\Debug\Common.pdb
+E:\Project\Common\Common .net4\Common\bin\Debug\System.Data.SQLite.dll
+E:\Project\Common\Common .net4\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Common\Common .net4\Common\obj\Debug\Common.dll
+E:\Project\Common\Common .net4\Common\obj\Debug\Common.pdb
+E:\Project\疯狂秀才\基本权限框架\Common\obj\Debug\Common.dll
+E:\Project\疯狂秀才\基本权限框架\Common\obj\Debug\Common.pdb
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Debug\Common.dll
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Debug\Common.pdb
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Debug\Newtonsoft.Json.dll
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Debug\Newtonsoft.Json.pdb
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Debug\Newtonsoft.Json.xml
+E:\Project\疯狂秀才\基本权限框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\bin\Debug\Common.dll
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\bin\Debug\Common.pdb
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\obj\Debug\Common.dll
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\obj\Debug\Common.pdb
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\bin\Debug\Newtonsoft.Json.dll
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\bin\Debug\Newtonsoft.Json.pdb
+E:\Project\疯狂秀才\基本权限框架EF\XiuCai.BPM\Common\bin\Debug\Newtonsoft.Json.xml

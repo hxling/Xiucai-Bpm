@@ -1,0 +1,27 @@
+﻿<form id="uiform">
+    <table class="grid">
+        <tr><td>菜单名称：</td><td><input type="text"  id="txt_title" name="navtitle" class="txt03 required" /></td></tr>
+        <tr><td>页面标识：</td><td><input type="text"  id="txt_ptag" name="navtag" class="txt03 required" /></td></tr>
+        <tr><td>上级菜单：</td><td><input type="text"  id="txt_parentid" name="parentid" class="txt03" /></td></tr>
+        <tr><td>链接地址：</td><td><input type="text" style="width:280px;" id="txt_url" name="linkurl" class="txt03 required" /></td></tr>
+        <tr><td>小图标：</td><td><span id="smallIcon" class="icon icon-note">&nbsp;</span><input type="text" value="icon-note" id="txt_iconcls" name="iconcls" class="txt03" />&nbsp;<a id="selecticon" ref="javascript:;" plain="true" class="easyui-linkbutton" icon="icon-search" title="选择图标"></a></td></tr>
+        <tr><td>大图标：</td><td>
+            <img id="imgBig" src="/css/icon/32/note.png" style="vertical-align: middle" />&nbsp;                 
+            <input type="text"  style="width:280px;" value="/css/icon/32/note.png" id="txt_bigimgurl" name="bigimageurl" class="txt03" />
+                             &nbsp;<a id="selectBigIcon" ref="javascript:;" plain="true" class="easyui-linkbutton" icon="icon-search" title="选择图标"></a>
+                             
+                         </td></tr>
+        <tr><td>排序：</td><td><input type="text" value=1 id="txt_orderid" name="sortnum" /></td></tr>
+        <tr><td>&nbsp;</td><td align="left"><input name="isvisible" style="vertical-align:middle"  type="checkbox" id="chkvisible" checked="checked" value=true /><label for="chkvisible" style="vertical-align:middle" >显示菜单</label></td></tr>
+        <tr><td>&nbsp;</td><td align="left"><input name="IsNewWindow" style="vertical-align:middle"  type="checkbox" id="chkIsNewWindow"  value=true />
+                               <label for="chkIsNewWindow" style="vertical-align:middle" >弹出窗口</label>
+            
+                               <span style="display: none;padding-left: 40px;" id="dialogSize">
+                                   宽：<input type="text" style="width: 60px" value="400" name="WinWidth" /> 高：<input type="text" style="width: 60px" value="300" name="WinHeight"/>
+                               </span>
+
+                           </td></tr>
+
+    </table>
+    <input type="hidden"  style="width:280px;" id="txt_iconurl" name="iconurl" />
+</form>

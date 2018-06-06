@@ -1,0 +1,26 @@
+﻿ <form id="xiucaiForm">
+     <div id="userTab" fit="true" style="height: 300px; overflow: hidden;" >
+         <div title="基本信息" style="padding: 2px; overflow: hidden;">
+             <table class="grid">
+                 <tr><td style="width: 100px;">用 &nbsp;户&nbsp; 名：</td><td>
+                                           <input type="text" data-bind="value:UserName" data-options="required:true,missingMessage:'请输入用户名'" name="UserName" class="txt03 easyui-validatebox" id="txt_username"/> </td></tr>
+                 <tr><td>真实姓名：</td><td><input type="text" data-bind="value:TrueName" name="TrueName" class="txt03 easyui-validatebox" data-options="required:true,missingMessage:'请输入姓名'"  id="txt_truename"/></td></tr>
+                 <tr><td>密　　码：</td><td><input type="password" name="Password" class="txt03 easyui-validatebox" data-options="required:true,missingMessage:'请输入密码'" id="txt_password"/></td></tr>
+                 <tr><td>所属部门：</td><td><input type="text" data-bind="value:DepartmentId" name="DepartmentId" style="width:200px" id="txt_department"/></td></tr>
+                 <tr><td>角　　色：</td><td><input type="text" name="role" id="txt_role" style="width:200px"/></td></tr>
+                 <tr><td>是否超管：</td><td><select name="IsAdmin" data-bind="value:IsAdmin" style="width:200px;" id="txt_isadmin"><option value="false">否</option><option value="true">是</option></select></td></tr>
+                 <tr><td>是否可用：</td><td><select name="IsDisabled" data-bind="value:IsDisabled" style="width:200px" id="txt_isdisabled"><option value="false">激活</option><option value="true">禁用</option></select></td></tr>
+             </table>
+         </div>
+         <div title="联系方式"  style="padding: 2px">
+             <table class="grid">
+                 <tr><td>邮　　箱：</td><td><input type="text" name="Email" data-bind="value:Email" class="txt03 easyui-validatebox" data-options="validType:'email'" style="width:200px" id="txt_email"/></td></tr>
+                 <tr><td>手　　机：</td><td><input type="text" style="width: 200px;" data-bind="value:Mobile" name="Mobile" id="txt_mobile" class="txt03"/></td></tr>
+                 <tr><td>Q 　　Q：</td><td><input type="text" style="width: 200px;" data-bind="value:QQ" name="QQ" id="txt_qq" class="txt03"/></td></tr>
+                 <tr><td>备　　注：</td><td><textarea style="width:300px; height: 50px" data-bind="value:Remark" name="Remark" id="txt_remark" class="txt03"/></td></tr>
+             </table>
+         </div>
+     </div>
+     <input type="hidden" name="passSalt" id="txt_passSalt"/>
+ </form>
+

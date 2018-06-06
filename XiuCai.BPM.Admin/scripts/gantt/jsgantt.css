@@ -1,0 +1,59 @@
+
+.scroll22 { overflow: hidden; padding: 0px; border:#6394CE 1px solid;  background-color: #ffffff;margin-right:2px;overflow:auto ;overflow-x:scroll;overflow-y:hidden; }
+ /*width: 420px;width: 482px;*/
+.scroll222{  overflow: auto;position:relative;overflow-x:scroll;overflow-y:hidden; padding: 0px; background-color: #ffffff;border:1px #6394CE solid; }
+
+.leftTable{border:1px solid #6394CE; border-collapse: collapse;font-size:12px;border-left:0px; border-right:0px; border-top:0px;}
+.leftTable td{border:1px solid #aaa;border-left:0px;}
+
+.left-table-top td{border-top:0px;}
+
+.rightTable td{border:1px solid #aaa; border-top:0px; border-left:0px;}
+.rightTable {border:1px solid #aaa; border-collapse: collapse;font-size:12px; border-top:0px; border-left:0px;}
+
+.right-table-top,.left-table-top{ background:url('images/catptionbg.gif') repeat-x ; height:24px; line-height:24px; }
+
+.caption { background:url('images/catptionbg.gif') repeat-x ; height:22px; line-height:22px; font-size:12px; color:#000; font-weight:bold;}
+
+.rightTable-TaskItem {position:relative; top:0px; height:20px; border:1px solid #aaa;padding:0px; border-collapse: collapse;font-size:12px; border-top:0px; border-left:0px;}
+
+.right-date{ height:22px; line-height:22px;  border-left:0px;}
+
+.ghead { border-top: #efefef 1px solid; font-size: 12px; border-left: #efefef 1px solid; height: 20px }
+.gdatehead { height: 20px }
+.gname {height: 20px }
+
+.task{ cursor:default; height:20px; }
+.currenTask{ background:#FFFF80; color:red;}
+.projectame{color:#10428C;padding-left:20px; font-weight:bold;}
+.taskname{color:#1F376D; text-decoration: none; font-family:ËÎÌו}
+.taskhover{background:#ffffaa;}
+.taskok{ background:url(yes.png) no-repeat}
+.keyline{position:absolute;top:0px; display:block; border-right:1px dotted red; width:20px; height:20px; cursor:pointer; z-index:100}
+.keyline2{position:absolute;top:0px; display:block; background:url(NeedleLeftYellow2.png) no-repeat; width:20px; height:20px; cursor:pointer; z-index:100}
+.weekbg{position:absolute;top:0px;background:#CFCFCF;height:20px;width:22px;}
+.groupbg{ background-color:#f3f3f3;}
+
+
+.tree-expanded{
+	display:inline-block;
+	width:16px;
+	height:18px;
+	vertical-align:middle;
+	background:url('images/tree_arrows.gif') no-repeat -18px 0px;
+	cursor:pointer;
+}
+.tree-expanded-hover{
+	background:url('images/tree_arrows.gif') no-repeat -50px 0px;
+}
+.tree-collapsed{
+	display:inline-block;
+	width:16px;
+	height:18px;
+	vertical-align:middle;
+	background:url('images/tree_arrows.gif') no-repeat 0px 0px;
+	cursor:pointer;
+}
+.tree-collapsed-hover{
+	background:url('images/tree_arrows.gif') no-repeat -32px 0px;
+}

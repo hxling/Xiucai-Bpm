@@ -1,0 +1,12 @@
+body{ background:url(../images/loginbg.gif) repeat-x top #8bacd7;padding:0px; margin:0px; font-family:Verdana;}
+#LoginCircle{ position:relative; width:853px; height:527px; margin:0 auto; top:0; z-index:1; background:url(../images/logincircle.gif) no-repeat;}
+#LoginDoc{position:absolute;width:650px; height:242px;top:165px;margin:5px; left:100px;z-index:200; background:url(../images/logindocbg1.gif) no-repeat center center #f9fbfe;}
+#SysName{ float:left; width:45%; font-family:'微软雅黑','黑体'; font-size:22px; margin:90px 0 0 30px; color:#004ea2; line-height:24px;}
+#SysInput{ float:left; width:45%; height:120px; margin-top:40px;}
+#SysInput ul{ margin:0; padding:0; clear:both; list-style:none;}
+#SysInput ul li{ float:left; padding:0 5px; line-height:35px; width:65px; font-size:12px;color:#003E83;}
+.LefPos{text-align:left;margin:6px 0 0;}
+.EnteStyle{background:url(../images/login_logo.gif) no-repeat; width:115px; height:36px;}
+.InputStyle{border:#41a1be 1px solid;padding:3px 5px; width:150px;font-size:14px; background:#FFFFFF url(../images/inputstyle.gif) repeat-x;color:#004ea2; font-weight:bold; font-family:"Verdana";HEIGHT:19px;line-height:18px;}
+#Copy{margin-left:auto; margin-right:auto;position:relative;text-align:center;top:-100px;color:#fff;z-index:300; font-weight:bold; font-size:14px;}
+#LoginCont{}

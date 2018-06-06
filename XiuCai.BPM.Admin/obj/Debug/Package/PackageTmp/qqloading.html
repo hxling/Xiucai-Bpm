@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/qqmsg/msgbox.css" />
+    <script type="text/javascript" src="scripts/qqmsg/jQuery.qqmsg.js?v=1"></script>
+    <script>
+        $(function() {
+            $('#test').hLoading({ type: 'success', msg: '操作成功',onAfterHide:function (){alert('1')} });
+            $('#test2').hLoading({ type: 'hits', msg: '信息提示' });
+            $('#test3').hLoading({ msg: '加载中' });
+            $('#test4').hLoading({ type: 'fail', msg: '操作失败' });
+            
+
+            
+            $('#Button1').click(function() {
+                $.hLoading.show({ type: 'success', msg: '操作成功', onAfterHide: function () { alert('操作成功') } });
+            });
+          
+           
+            $('#Button2').click(function () {
+                $.hLoading.show({ type: 'fail', msg: '操作失败' });
+                setTimeout(function () { $.hLoading.show({ type: 'success', msg: '任务已完成', timeout: 100000 }); },3000);
+            });
+            
+            $('#Button3').click(function () {
+                $.hLoading.show({ msg: '加载中' });
+            });
+
+            $('#Button4').click(function () {
+                $.hLoading.show({ type: 'hits', msg: '信息提示' });
+            });
+
+            $('#btnHide').click(function () {
+                $.hLoading.hide();
+            });
+        })
+    </script>
+</head>
+<body style="margin: 0px;padding: 0px">
+    <div>
+        <input type="button" value="隐藏" id="btnHide"/>
+        <input type="button" value="操作成功" id="Button1"/>
+        <input type="button" value="操作失败" id="Button2"/>
+        <input type="button" value="加载中" id="Button3"/>
+        <input type="button" value="信息提示" id="Button4"/>
+    </div>
+    <div id="test" style="float:left;width:300px;height:300px; border: 1px solid #000">sssssss</div>
+    <div id="test2" style="float:left;margin-left:10px;width:300px;height:300px;border: 1px solid #000">sssssss</div>
+    <div id="test3" style="float:left;margin-left:10px;width:300px;height:300px;border: 1px solid #000">sssssss</div>
+    <div id="test4" style="float:left;margin-left:10px;width:300px;height:300px;border: 1px solid #000">sssssss</div>
+</body>
+</html>

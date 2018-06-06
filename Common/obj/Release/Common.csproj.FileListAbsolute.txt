@@ -1,0 +1,33 @@
+E:\Project\Common\Common\bin\Release\Common.dll
+E:\Project\Common\Common\bin\Release\Common.pdb
+E:\Project\Common\Common\bin\Release\Newtonsoft.Json.Net20.Merged.dll
+E:\Project\Common\Common\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Common\Common\obj\Release\Common.dll
+E:\Project\Common\Common\obj\Release\Common.pdb
+E:\Project\Common\Common\bin\Release\Common.XML
+E:\Project\Common\Common .net4\Common\bin\Release\Common.XML
+E:\Project\Common\Common .net4\Common\bin\Release\Common.dll
+E:\Project\Common\Common .net4\Common\bin\Release\Common.pdb
+E:\Project\Common\Common .net4\Common\bin\Release\System.Data.SQLite.dll
+E:\Project\Common\Common .net4\Common\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Common\Common .net4\Common\obj\Release\Common.dll
+E:\Project\Common\Common .net4\Common\obj\Release\Common.pdb
+E:\Project\Common\Common .net4 v5\Common\bin\Release\Common.dll
+E:\Project\Common\Common .net4 v5\Common\bin\Release\Common.pdb
+E:\Project\Common\Common .net4 v5\Common\bin\Release\System.Data.SQLite.dll
+E:\Project\Common\Common .net4 v5\Common\obj\Release\Common.dll
+E:\Project\Common\Common .net4 v5\Common\obj\Release\Common.pdb
+E:\Project\Common\Common .net4 v5\Common\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Common\Common .net4 v5\Common\bin\Release\Newtonsoft.Json.dll
+E:\Project\Common\Common .net4 v5\Common\bin\Release\Newtonsoft.Json.pdb
+E:\Project\Common\Common .net4 v5\Common\bin\Release\Newtonsoft.Json.xml
+E:\Project\Common\Common .net4 v5\Common\bin\Release\Common.XML
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Release\Common.XML
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Release\Common.dll
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Release\Common.pdb
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Release\Newtonsoft.Json.dll
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Release\Newtonsoft.Json.pdb
+E:\Project\疯狂秀才\基本权限框架\Common\bin\Release\Newtonsoft.Json.xml
+E:\Project\疯狂秀才\基本权限框架\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+E:\Project\疯狂秀才\基本权限框架\Common\obj\Release\Common.dll
+E:\Project\疯狂秀才\基本权限框架\Common\obj\Release\Common.pdb

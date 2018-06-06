@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="false" CodeBehind="Site1.master.cs" Inherits="Xiucai.BPM.Admin.Site1" %>
+<%@ Import Namespace="Xiucai.BPM.Admin.sys.ashx" %>
+<%@ Import Namespace="Xiucai.BPM.Core" %>
+<%@ Import Namespace="Xiucai.Common" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <%=WebExtensions.CombresLink(SysVisitor.Instance.ThemeName) %>
+    <%=WebExtensions.CombresLink("siteCss") %>
+    <%=WebExtensions.CombresLink("alertifyCss") %>
+    
+    
+    <!--[if lte IE 8]><script src="/scripts/json2.js"></script><![endif]-->
+
+    <%=WebExtensions.CombresLink("jquery") %>
+    <%=WebExtensions.CombresLink("siteJs") %>
+
+    
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <script type="text/javascript">
+        if (top.location == self.location) {
+            top.location = '/';
+        }
+        var urlRoot = "<%= ConfigHelper.GetValue("sitepath") %>" ; // 设置后台程序所在的目录 如： /admin
+        var currend_Date = '<%=DateTime.Now.ToString("yyyy-MM-dd") %>';
+        var PAGESIZE = <%=SysVisitor.Instance.GridRows%>;
+
+
+        $(function() {
+            $('#toolbar,.toolbar').css({
+                height:'28px',
+                //background:#efefef;
+                padding:'1px 2px',
+                'padding-bottom': '0px'
+                //,'border-bottom':'1px solid #ccc'
+            });
+        });
+
+
+    </script>
+</head>
+<body onselectstart="return false;" style="height:100%;width:100%;border:none; overflow:hidden;">
+    <form id="form1" runat="server">
+    <div style="padding:2px; margin:0px ">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+    <script type="text/javascript">
+        //var $notity = top.$('#notity');
+        alertify.set({ delay: 3000 });
+        alertify.warning = alertify.extend('warning');
+        
+        var msg = {
+            ok: function(message) {
+                //$notity.jnotifyAddMessage({ text: message });
+                alertify.success(message);
+            },
+            error: function(message) {
+                //$notity.jnotifyAddMessage({ text: message, type: 'error' });
+                alertify.error(message);
+            },
+            warning: function(message) {
+                alertify.warning(message);
+            }
+        };
+       
+    </script>
+    
+    
+</body>
+   
+</html>

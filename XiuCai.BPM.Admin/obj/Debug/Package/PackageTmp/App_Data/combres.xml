@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  This file contains basic settings needed for most web apps.
+  For full Combres settings (with explanation), refer to the sample definition file: combres_full_with_annotation.xml
+  Also, refer to Combres' documentation: http://combres.codeplex.com/documentation	
+-->
+<combres xmlns='urn:combres'>
+  <filters>
+    <filter type="Combres.Filters.FixUrlsInCssFilter, Combres" />
+  </filters>
+  <resourceSets url="~/combres.axd"
+                defaultDuration="30"
+                defaultVersion="auto"
+                defaultDebugEnabled="false"
+                defaultIgnorePipelineWhenDebug="true"
+                localChangeMonitorInterval="30"
+                remoteChangeMonitorInterval="60"
+                >
+    <!-- 公共CSS -->
+    <resourceSet name="siteCss" type="css">
+      <resource path="~/css/common.css" />
+      <resource path="~/scripts/qqmsg/msgbox.css" />
+      <resource path="~/css/icon.css" />
+    </resourceSet>
+
+     <!--皮肤-->
+    <resourceSet name="metro" type="css">
+      <resource path="~/theme/metro/style.css" />
+      <resource path="~/Scripts/easyui/themes/metro/easyui.css" />
+    </resourceSet>
+    <resourceSet name="metro-blue" type="css">
+      <resource path="~/theme/metro/style.css" />
+      <resource path="~/Scripts/easyui/themes/metro-blue/easyui.css" />
+    </resourceSet>
+    <resourceSet name="metro-gray" type="css">
+      <resource path="~/theme/metro/style.css" />
+      <resource path="~/Scripts/easyui/themes/metro-gray/easyui.css" />
+    </resourceSet>
+    <resourceSet name="metro-green" type="css">
+      <resource path="~/theme/metro/style.css" />
+      <resource path="~/Scripts/easyui/themes/metro-green/easyui.css" />
+    </resourceSet>
+    <resourceSet name="metro-orange" type="css">
+      <resource path="~/theme/metro/style.css" />
+      <resource path="~/Scripts/easyui/themes/metro-orange/easyui.css" />
+    </resourceSet>
+    <resourceSet name="metro-red" type="css">
+      <resource path="~/theme/metro/style.css" />
+      <resource path="~/Scripts/easyui/themes/metro-red/easyui.css" />
+    </resourceSet>
+    
+    
+    <resourceSet name="default" type="css">
+      <resource path="~/theme/default/style.css" />
+      <resource path="~/Scripts/easyui/themes/default/easyui.css" />
+    </resourceSet>
+    <resourceSet name="gray" type="css">
+      <resource path="~/theme/gray/style.css" />
+      <resource path="~/Scripts/easyui/themes/gray/easyui.css" />
+    </resourceSet>
+    <resourceSet name="black" type="css">
+      <resource path="~/theme/black/style.css" />
+      <resource path="~/Scripts/easyui/themes/black/easyui.css" />
+    </resourceSet>
+    <resourceSet name="bootstrap" type="css">
+      <resource path="~/theme/bootstrap/style.css" />
+      <resource path="~/Scripts/easyui/themes/bootstrap/easyui.css" />
+    </resourceSet>
+
+    <resourceSet name="alertifyCss" type="css">
+      <resource path="~/scripts/alertify/alertify.core.css" />
+      <resource path="~/scripts/alertify/alertify.default.css" />
+    </resourceSet>
+
+
+    <!--js-->
+    <resourceSet name="jquery" type="js">
+      <resource path="~/Scripts/jquery-1.8.3.min.js" />
+      <resource path="~/Scripts/jQuery.cookie.js" />
+      <resource path="~/Scripts/alertify/alertify.min.js" />
+    </resourceSet>
+    
+    <resourceSet name="siteJs" type="js">
+      <resource path="~/scripts/qqmsg/jQuery.qqmsg.js" />
+      <resource path="~/Scripts/easyui/jquery.easyui.min.js" />
+      <resource path="~/Scripts/easyui/locale/easyui-lang-zh_CN.js" />
+      <resource path="~/scripts/easyui/easyui-validate-rules.js" />
+      <resource path="~/scripts/easyui/Xiucai.EasyUI.Extensions.js" />
+      <resource path="~/Scripts/jQuery.Ajax.js" />
+    </resourceSet>
+
+    <resourceSet name="layout" type="js">
+      <resource path="~/Scripts/business/newlayout.js" />
+    </resourceSet>
+
+  </resourceSets>
+</combres>

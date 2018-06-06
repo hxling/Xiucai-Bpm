@@ -1,0 +1,1 @@
+<%@ WebHandler Language="C#" CodeBehind="DemoRuKuDanHandler.ashx.cs" Class="Xiucai.BPM.Admin.Demo.ashx.DemoRuKuDanHandler" %>

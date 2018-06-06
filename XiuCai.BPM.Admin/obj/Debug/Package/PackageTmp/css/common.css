@@ -1,0 +1,125 @@
+﻿
+body{font-size:12px; font-family:Verdana,宋体,Tahoma;padding:0px; margin:0px; }
+ul{    margin:0px;padding:0px;}li{    list-style-type:none;}
+a{ color:Black; text-decoration:none;}
+a:hover{ color:Red; text-decoration:underline;}
+img{ border: 0px;}
+
+.txt01 {border: #A4BED4 1px solid;font:Verdana, Geneva, sans-serif,宋体; background-color: #fff; font-size: 14px; height:20px; line-height:20px; }
+.txt02{border-color:#ddd #ddd #ddd #ddd;border-width:1px;padding:3px 2px 2px 2px;font:trebuchet ms, helvetica, arial, sans-serif;color:#000;}
+.txt03{color: #000100;height: 16px;line-height: 16px;padding:3px 2px;border: 1px solid #9296ac;background: url("userInputBg.jpg") repeat-x left top;}
+.txt {border: #878787 1px solid;padding: 4px 3px;font:Verdana, Geneva, sans-serif,宋体;line-height: 14px; background-color: #fff;  height: auto; font-size: 14px;}
+.footer{text-align:center;color:#15428B; margin:0px; padding:0px;line-height:23px; font-weight:bold;}
+
+.txt-click{border:#CC9933 1px solid; background:#FFFFCC;}
+
+.head a{color:White;text-decoration:underline;}
+
+.accordion ul{list-style-type:none;margin:0px; padding:10px;}
+.accordion ul li{ padding:0px;}
+.accordion ul li a{line-height:24px; cursor:pointer;}
+.accordion ul li div{margin:2px 0px;padding-left:10px;padding-top:2px; border:1px solid transparent;}
+.menuItem li div:hover{border:1px dashed #D69C00; background:#FFE88C;cursor:pointer;}
+.accordion ul li div.hover a{color:#D16C00; text-decoration:none;}
+.accordion ul li div.selected{border:1px solid #D69C00; background:#FFE88C;cursor:default;}
+.accordion ul li div.selected a{color:#D16C00; font-weight:bold;}
+
+
+.bigicon .img { display: block;}
+.bigicon li{ text-align: center;}
+ul.bigicon li div{ padding-left: 0px;}
+
+
+.fontbold{ font-weight:bold;}
+.fontnormal{font-weight:normal;}
+
+.btnsubmit{border-color: #ff9000 #cc4f00 #cc4f00 #ff9000;border-style:solid;border-width:1px;text-align: center; padding: 2px 15px; background: #e36b0f;  color: #fff; font-size: 12px; cursor: pointer;}
+.inputsubmit-blue{background:none repeat scroll 0 0 #005EAC;border-color:#D8DFEA #0E1F5B #0E1F5B #D8DFEA;border-style:solid;border-width:1px;color:#FFFFFF;cursor:pointer;font-size:12px;height:24px;line-height:16px;padding:3px 15px;text-align:center;}
+.btncancel{background-color:#005EAC;border-color:#B8D4E8 #124680 #124680 #B8D4E8;border-style:solid;border-width:1px;color:#FFFFFF;cursor:pointer;font-size:12px;padding:2px 15px;text-align:center;    }
+.btn-gray{background:none repeat scroll 0 0 #F0F0F0 !important;border-color:#FFFFFF #848484 #848484 #FFFFFF !important;border-style:solid;border-width:1px;color:#333333 !important;}
+.btn{border:0 none;color:#2B2B2B;cursor:pointer;font-size:13px;font-weight:bold;height:24px;line-height:24px;padding:0;text-align:center;background-image:url(/images/bg_v6.gif);background-repeat:no-repeat;}
+.inputsubmit{background-position:-432px 0;width:82px;}
+.inputsubmit-active{background-position:-432px -72px;}
+.inputsubmit-hover{background-position:-432px -36px;}
+
+.inputcancel {background-position:-324px 0;margin-left:18px;width:78px;}
+.inputcancel-active{background-position:-324px -72px;}
+.inputcancel-hover{background-position:-324px -36px;}
+
+.btn-ok{ background:url(lane_btn_sprites.png) no-repeat 0px -190px; width:56px; height:24px; border:none;cursor:pointer;}
+.btn-cancel{ background:url(lane_btn_sprites.png) no-repeat -62px -155px; width:56px; height:24px; border:none;cursor:pointer;}
+
+/********************** 按钮样式 **********************/
+.button_height20{BORDER: #66a4fa 1px solid;FONT-SIZE: 9pt;BACKGROUND: url(../images/bottom_over.gif);CURSOR: hand;HEIGHT: 22px;}
+.button_height20_over{BORDER: #66a4fa 1px solid;FONT-SIZE: 9pt;BACKGROUND: url(../images/bottom.gif);CURSOR: hand; HEIGHT: 22px;}
+
+
+#treetable td{padding:0px;}
+
+.tr-odd{  background-color:white }
+.tr-even{background-color:#F0F5FC}
+.tr-active{background-color:#FFF799;}
+.tr-select{background-color:#B7C9E9;}
+
+.nav-node-parent{ background:#E0ECFF;}
+
+ /************jQuery.Validate插件样式开始********************/        
+ label.error,em.error{ background: url(/images/cross.png) no-repeat 0px 0px;color: Red; font-style:normal; padding:5px 0px;padding-left: 24px; float:none;} 
+ label.success,em.success{background: url(/images/success.gif) no-repeat 0px 0px;color: Red;padding:5px 0px;padding-left: 24px; float:none;}       
+ input.error { border: solid 2px #FF0000;}
+
+ /************jQuery.Validate插件样式结束********************/
+ 
+img.spinbutton{position:absolute;right:2px;top:2px;}
+
+label.hcheckbox {padding-left: 24px; cursor:pointer;background: url(../../css/chk.png) no-repeat left -110px; line-height:22px; height:21px; display:inline-block; } 
+label.checked {background-position:left -160px;  } 
+label.disabled{background-position:left -135px;}
+
+.hRadio 
+{
+    padding-left: 22px; display: inline-block;
+	background: transparent url(../../css/radio.png) no-repeat left top;
+	height: 19px; line-height:20px;
+	cursor:pointer;vertical-align:middle;
+}
+
+.hRadio_Checked { background-position: left bottom;}
+
+ul.checkbox{ padding:0px; margin:0px; list-style-image:none; list-style-type:none;}
+ul.checkbox li{ float:left; width:100px; margin-bottom:5px; padding-left:10px;}
+
+.project li
+{
+    height:30px; line-height:30px;
+    padding:2px; padding-bottom:10px;
+}
+.project li span
+{
+    width:180px; text-align:left; float:left; vertical-align:middle;
+}
+
+.chked
+{
+    background:url(checkbox1.png) no-repeat 0 -12px; height:13px;padding-left: 12px; display: inline-block;
+}
+
+.nochked
+{
+    background:url(checkbox1.png) no-repeat;height:12px;padding-left: 12px; display: inline-block;
+}
+
+.filter-first-td{width:14px;}
+
+
+.grid {	font: 12px arial, helvetica, sans-serif;border:1px solid #8DB2E3;}
+.grid td {	font: 100% arial, helvetica, sans-serif; height:24px;padding:5px;}
+.grid  { width: 100%; border-collapse: collapse}
+.grid th { background:#E7F3FE; height:27px; line-height:27px;border:1px solid #8DB2E3; padding-left:5px;}
+.grid td {	border:1px solid #8DB2E3;padding-left:5px;}
+
+
+
+#header{overflow: hidden; height: 71px; 
+        background: #2076C3 url(/images/headbg.png) repeat-x; 
+        line-height: 64px; color: #fff; font-family: Verdana, 微软雅黑,黑体}
